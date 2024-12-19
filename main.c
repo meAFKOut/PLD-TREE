@@ -15,7 +15,7 @@ int main() {
                 if (value == -1) break;
                 root = insertNode(root, value);
         }
-                height = calculateHeight(root);
+                height = calculateHeight(root) + 1;
                 printf("Height of the tree: %d\n", height);
         inOrderTraversal(root, NULL, &arr_size);
         arr = (int*)malloc(arr_size * sizeof(int));
