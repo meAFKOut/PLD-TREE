@@ -19,7 +19,14 @@ int main() {
 	       	if (value == -1) break;
 		root = InserdNote(root , value);
 	}
-	
+        int calculateHeight(struct TreeNode *root) {
+		if (root == NULL) {
+			return -1;
+		{
+		int leftHeight = calculateHeight(root->left);
+		int rightHeight = calculateHeight(root->right);
+		return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
+		}	
 
 
 
