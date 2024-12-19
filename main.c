@@ -15,10 +15,9 @@ int main() {
 	printf("Write the value for Tree (Write -1 to stop):\n");
 	while(1){ 
 		printf("Write the number: ")
-		scanf("%d" , 
-	
-	
-
+		scanf("%d" , &value);
+	       	if (value == -1) brwak;
+		root = InserdNote(root , value);
 	}
 
 
