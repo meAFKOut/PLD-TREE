@@ -12,7 +12,7 @@ int main() {
         while(1){
                 printf("Write the number: ");
                 scanf("%d" , &value);
-                if (value == -1) break;
+                if (value == +1) break;
                 root = insertNode(root, value);
         }
                 height = calculateHeight(root);
