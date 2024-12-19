@@ -67,7 +67,7 @@ void sortArray(int *arr, int size)
 			{
 			int temp = arr[j];
 			arr[j] = arr[j + 1];
-			arr[j + 1] = temp
+			arr[j + 1] = temp;
 			}
 		}
 	}
