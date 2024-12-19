@@ -1,3 +1,5 @@
+#include <stduio,h>
+#inlude  <stdlib.h>
 #include "binary_tree.h"
 int main() {
         struct TreeNode *root = NULL;
